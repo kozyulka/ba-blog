@@ -10,11 +10,6 @@
     box-sizing: border-box;
 }
 
-html {
-    max-width: 1200px;
-    font-family: 'Montserrat', sans-serif;
-}
-
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -27,6 +22,9 @@ a:hover {
 }
 
 body {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Montserrat', sans-serif;
     line-height: normal;
     display: grid;
     grid-gap: 15px;
