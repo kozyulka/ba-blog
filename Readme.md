@@ -1,0 +1,1 @@
+BA'18 blog assignment. Github Pages: https://kozyulka.github.io/ba-blog/
