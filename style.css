@@ -425,7 +425,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .footer-logo {
@@ -477,5 +477,13 @@ footer {
     }
     .aside-comments-text {
         max-width: 35em;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    footer {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
     }
 }
