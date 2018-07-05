@@ -451,6 +451,15 @@ footer {
     .header-info {
         display: none;
     }
+
+    main {
+        margin-left: 0px;
+    }
+
+    aside {
+        margin-right: 0px;
+    }
+
     .search-block {
         margin-left: 7px;
         order: 1;
