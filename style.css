@@ -149,16 +149,16 @@ header {
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
+    transform: translate(-200%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 }
 
-.sidemenu li {
+.sidemenu div {
     padding: 10px 0;
     font-size: 22px;
 }
 
-.sidemenu-container input:checked~ul {
+.sidemenu-container input:checked~.sidemenu {
     transform: none;
 }
 
@@ -442,6 +442,11 @@ footer {
     }
     body {
         grid-template-areas: "header header" "main main" "aside aside" "footer footer";
+    }
+
+    .header-logo {
+        height: auto;
+        max-width: 60%;
     }
     .header-info {
         display: none;
