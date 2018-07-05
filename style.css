@@ -304,6 +304,8 @@ aside {
     padding-top: 15px;
     text-transform: uppercase;
     margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 900;
 }
 
 .aside-subscribe-form {
@@ -312,16 +314,19 @@ aside {
 }
 
 .aside-subscribe-form input[type=text] {
-    width: 80%;
+    width: 100%;
     font-size: 15px;
     height: 35px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: none;
-    padding-left: 5px;
+    padding-left: 10px;
+    border-right: 1px solid var(--light-grey);
+    border-left: 1px solid var(--light-grey);
 }
 
 .aside-subscribe-form input[type=submit] {
-    width: 80%;
+    width: 100%;
     background-color: black;
     color: white;
     border: none;
@@ -341,7 +346,7 @@ aside {
     height: 40px;
     border: 1px solid var(--dark-grey);
     border-right: none;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .aside-search button {
